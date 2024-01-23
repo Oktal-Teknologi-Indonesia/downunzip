@@ -11,9 +11,9 @@ Contoh aplikasi sederhana untuk:
 
 cordova create downzip id.oktal.downzip downzip
 ### Plugins
-cordova plugin add cordova-plugin-advanced-http
-cordova plugin add cordova-plugin-file
-cordova plugin add cordova-plugin-zip
+cordova plugin add cordova-plugin-advanced-http\
+cordova plugin add cordova-plugin-file\
+cordova plugin add cordova-plugin-zip\
 ### Platform
 cordova platform add android
 cordova platform add browser
@@ -22,5 +22,5 @@ cordova platform add browser
 - Pastikan perangkat sudah enable usb debugging
 - Buka browser berbasis chrome ( chrome, chromium, brave, thorium, dll)
 - buka chrome://inspect
-- klik inspect
+- klik inspect \
 sumber: https://riptutorial.com/cordova/example/13976/debug-on-android-device-using-usb
